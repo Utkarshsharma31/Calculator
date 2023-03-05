@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <script src="index.js"></script>
+<div id="cal_frame" class="frame">
+<h1 id="head">0</h1>
+<!-- <hr class="horizontalRule"> -->
+<table class="cal_table">
+    <tbody>
+        <tr>
+            <td class="number_2" onclick="clean()">AC</td>
+            <td class="number_2">+/-</td>
+            <td class="number_2" onclick="calOperator('%')">%</td>
+            <td class="oprator" onclick="calOperator('/')">/</td>
+        </tr>
+        <tr>
+            <td id="7" class="number" onclick="button('7')">7</td>
+            <td id="8" class="number" onclick="button('8')">8</td>
+            <td id="9" class="number" onclick="button('9')">9</td>
+            <td id="x" class="oprator" onclick="calOperator('x')">X</td>
+        </tr>
+        <tr>
+            <td  id="4" class="number" onclick="button('4')">4</td>
+            <td  id="5" class="number" onclick="button('5')">5</td>
+            <td  id="6" class="number" onclick="button('6')">6</td>
+            <td  id="-" class="oprator" onclick="calOperator('-')">-</td>
+        </tr>
+        <tr>
+            <td  id="1" class="number" onclick="button('1')">1</td>
+            <td  id="2" class="number" onclick="button('2')">2</td>
+            <td  id="3" class="number" onclick="button('3')">3</td>
+            <td  id="+" class="oprator" onclick="calOperator('+')">+</td>
+        </tr>
+        <tr>
+            <td id="0" class="number"  colspan="2" onclick="button('0')">0</td>
+            <td class="oprator" colspan="2" onclick="result()">=</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</body>
+</html>

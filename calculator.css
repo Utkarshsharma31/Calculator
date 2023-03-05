@@ -1,0 +1,45 @@
+#cal_frame{
+    height: 19.4rem;
+    width: 20rem;
+    background-color: #50463c;
+    border-radius: 6px;
+}
+
+.cal_table{
+    width: 100%;
+}
+
+td{
+
+    height: 2.6rem;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    cursor: pointer !important;
+
+}
+.oprator{
+   background-color:  rgb(242 142 4);
+   color: white;
+}
+.number{
+    background-color : rgb(108 108 108);
+    color: white;
+}
+.number_2{
+    background-color: #66584e;
+}
+
+.horizontalRule{
+    position: relative;
+    top: 9px;
+
+}
+
+#head{
+    position: relative;
+    top: 22px;
+    float: right;
+    right: 16px;
+    color: white;
+}
